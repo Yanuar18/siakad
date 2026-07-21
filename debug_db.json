@@ -1,0 +1,1108 @@
+{
+    "academic_years": [
+        {
+            "id": 1,
+            "year": "2026\/2027",
+            "semester": "odd",
+            "is_active": true,
+            "created_at": "2026-07-09T15:47:37.000000Z",
+            "updated_at": "2026-07-09T15:47:37.000000Z"
+        },
+        {
+            "id": 2,
+            "year": "2026\/2027",
+            "semester": "even",
+            "is_active": false,
+            "created_at": "2026-07-11T03:32:24.000000Z",
+            "updated_at": "2026-07-11T03:32:24.000000Z"
+        }
+    ],
+    "classrooms": [
+        {
+            "id": 1,
+            "name": "7A",
+            "academic_year_id": 1,
+            "created_at": "2026-07-10T05:08:43.000000Z",
+            "updated_at": "2026-07-10T05:08:43.000000Z"
+        },
+        {
+            "id": 2,
+            "name": "7B",
+            "academic_year_id": 1,
+            "created_at": "2026-07-11T03:33:06.000000Z",
+            "updated_at": "2026-07-11T03:33:06.000000Z"
+        },
+        {
+            "id": 3,
+            "name": "8A",
+            "academic_year_id": 1,
+            "created_at": "2026-07-11T03:37:31.000000Z",
+            "updated_at": "2026-07-11T03:37:31.000000Z"
+        },
+        {
+            "id": 4,
+            "name": "8B",
+            "academic_year_id": 1,
+            "created_at": "2026-07-11T03:40:21.000000Z",
+            "updated_at": "2026-07-11T03:40:21.000000Z"
+        },
+        {
+            "id": 5,
+            "name": "9A",
+            "academic_year_id": 1,
+            "created_at": "2026-07-11T03:41:51.000000Z",
+            "updated_at": "2026-07-11T03:41:51.000000Z"
+        },
+        {
+            "id": 6,
+            "name": "9B",
+            "academic_year_id": 1,
+            "created_at": "2026-07-11T03:43:11.000000Z",
+            "updated_at": "2026-07-11T03:43:11.000000Z"
+        }
+    ],
+    "classroom_students": [
+        {
+            "id": 1,
+            "classroom_id": 1,
+            "student_id": 6,
+            "created_at": "2026-07-10T05:08:52.000000Z",
+            "updated_at": "2026-07-10T05:08:52.000000Z"
+        },
+        {
+            "id": 2,
+            "classroom_id": 1,
+            "student_id": 5,
+            "created_at": "2026-07-10T05:09:15.000000Z",
+            "updated_at": "2026-07-10T05:09:15.000000Z"
+        },
+        {
+            "id": 3,
+            "classroom_id": 2,
+            "student_id": 18,
+            "created_at": "2026-07-11T03:33:59.000000Z",
+            "updated_at": "2026-07-11T03:33:59.000000Z"
+        },
+        {
+            "id": 4,
+            "classroom_id": 2,
+            "student_id": 14,
+            "created_at": "2026-07-11T03:33:59.000000Z",
+            "updated_at": "2026-07-11T03:33:59.000000Z"
+        },
+        {
+            "id": 5,
+            "classroom_id": 3,
+            "student_id": 17,
+            "created_at": "2026-07-11T03:38:11.000000Z",
+            "updated_at": "2026-07-11T03:38:11.000000Z"
+        },
+        {
+            "id": 6,
+            "classroom_id": 3,
+            "student_id": 13,
+            "created_at": "2026-07-11T03:38:11.000000Z",
+            "updated_at": "2026-07-11T03:38:11.000000Z"
+        },
+        {
+            "id": 7,
+            "classroom_id": 4,
+            "student_id": 16,
+            "created_at": "2026-07-11T03:40:45.000000Z",
+            "updated_at": "2026-07-11T03:40:45.000000Z"
+        },
+        {
+            "id": 8,
+            "classroom_id": 4,
+            "student_id": 12,
+            "created_at": "2026-07-11T03:40:45.000000Z",
+            "updated_at": "2026-07-11T03:40:45.000000Z"
+        },
+        {
+            "id": 9,
+            "classroom_id": 5,
+            "student_id": 15,
+            "created_at": "2026-07-11T03:42:07.000000Z",
+            "updated_at": "2026-07-11T03:42:07.000000Z"
+        },
+        {
+            "id": 10,
+            "classroom_id": 5,
+            "student_id": 11,
+            "created_at": "2026-07-11T03:42:07.000000Z",
+            "updated_at": "2026-07-11T03:42:07.000000Z"
+        },
+        {
+            "id": 11,
+            "classroom_id": 6,
+            "student_id": 10,
+            "created_at": "2026-07-11T03:43:33.000000Z",
+            "updated_at": "2026-07-11T03:43:33.000000Z"
+        },
+        {
+            "id": 12,
+            "classroom_id": 6,
+            "student_id": 4,
+            "created_at": "2026-07-11T03:43:33.000000Z",
+            "updated_at": "2026-07-11T03:43:33.000000Z"
+        }
+    ],
+    "classroom_subject_teachers": [
+        {
+            "id": 1,
+            "classroom_id": 1,
+            "subject_id": 1,
+            "teacher_id": 2,
+            "created_at": "2026-07-10T05:09:08.000000Z",
+            "updated_at": "2026-07-10T05:09:08.000000Z",
+            "classroom": {
+                "id": 1,
+                "name": "7A",
+                "academic_year_id": 1,
+                "created_at": "2026-07-10T05:08:43.000000Z",
+                "updated_at": "2026-07-10T05:08:43.000000Z"
+            },
+            "subject": {
+                "id": 1,
+                "name": "Matematika",
+                "code": "MATH-01",
+                "created_at": "2026-07-10T04:02:23.000000Z",
+                "updated_at": "2026-07-11T03:28:43.000000Z"
+            },
+            "teacher": {
+                "id": 2,
+                "name": "Budi Hartono",
+                "email": "budi@gmail.com",
+                "email_verified_at": null,
+                "two_factor_confirmed_at": null,
+                "created_at": "2026-07-09T15:46:36.000000Z",
+                "updated_at": "2026-07-11T03:13:33.000000Z",
+                "role": "teacher",
+                "avatar": "avatars\/pze8RT69qsvLdqP4pvrRz8VzXfR1ybT9RuDwaeq5.jpg",
+                "avatar_url": "\/storage\/avatars\/pze8RT69qsvLdqP4pvrRz8VzXfR1ybT9RuDwaeq5.jpg"
+            },
+            "schedules": []
+        },
+        {
+            "id": 5,
+            "classroom_id": 2,
+            "subject_id": 4,
+            "teacher_id": 3,
+            "created_at": "2026-07-11T03:33:58.000000Z",
+            "updated_at": "2026-07-11T03:33:58.000000Z",
+            "classroom": {
+                "id": 2,
+                "name": "7B",
+                "academic_year_id": 1,
+                "created_at": "2026-07-11T03:33:06.000000Z",
+                "updated_at": "2026-07-11T03:33:06.000000Z"
+            },
+            "subject": {
+                "id": 4,
+                "name": "Ilmu Pengetahuan Alam",
+                "code": "IPA-01",
+                "created_at": "2026-07-11T03:31:17.000000Z",
+                "updated_at": "2026-07-11T03:31:21.000000Z"
+            },
+            "teacher": {
+                "id": 3,
+                "name": "Siti Aminah",
+                "email": "siti@gmail.com",
+                "email_verified_at": null,
+                "two_factor_confirmed_at": null,
+                "created_at": "2026-07-09T15:46:36.000000Z",
+                "updated_at": "2026-07-11T03:10:43.000000Z",
+                "role": "teacher",
+                "avatar": "avatars\/brRAQ7S4bu4c63z07QZ0OgPcwXvxsRvqvDa116zh.jpg",
+                "avatar_url": "\/storage\/avatars\/brRAQ7S4bu4c63z07QZ0OgPcwXvxsRvqvDa116zh.jpg"
+            },
+            "schedules": []
+        },
+        {
+            "id": 7,
+            "classroom_id": 2,
+            "subject_id": 3,
+            "teacher_id": 8,
+            "created_at": "2026-07-11T03:33:58.000000Z",
+            "updated_at": "2026-07-11T03:33:58.000000Z",
+            "classroom": {
+                "id": 2,
+                "name": "7B",
+                "academic_year_id": 1,
+                "created_at": "2026-07-11T03:33:06.000000Z",
+                "updated_at": "2026-07-11T03:33:06.000000Z"
+            },
+            "subject": {
+                "id": 3,
+                "name": "Bahasa Indonesia",
+                "code": "BINA-01",
+                "created_at": "2026-07-11T03:29:22.000000Z",
+                "updated_at": "2026-07-11T03:29:22.000000Z"
+            },
+            "teacher": {
+                "id": 8,
+                "name": "Fitri Firgianni",
+                "email": "fitri@gmail.com",
+                "email_verified_at": null,
+                "two_factor_confirmed_at": null,
+                "created_at": "2026-07-11T02:08:53.000000Z",
+                "updated_at": "2026-07-11T02:08:53.000000Z",
+                "role": "teacher",
+                "avatar": "avatars\/I8YJhgujzxiLl2t3RIGBRXtZjp6tknqGEKHJt5sb.jpg",
+                "avatar_url": "\/storage\/avatars\/I8YJhgujzxiLl2t3RIGBRXtZjp6tknqGEKHJt5sb.jpg"
+            },
+            "schedules": []
+        },
+        {
+            "id": 10,
+            "classroom_id": 2,
+            "subject_id": 2,
+            "teacher_id": 9,
+            "created_at": "2026-07-11T03:33:58.000000Z",
+            "updated_at": "2026-07-11T03:33:58.000000Z",
+            "classroom": {
+                "id": 2,
+                "name": "7B",
+                "academic_year_id": 1,
+                "created_at": "2026-07-11T03:33:06.000000Z",
+                "updated_at": "2026-07-11T03:33:06.000000Z"
+            },
+            "subject": {
+                "id": 2,
+                "name": "Informatika",
+                "code": "TIK-01",
+                "created_at": "2026-07-11T03:28:35.000000Z",
+                "updated_at": "2026-07-11T03:28:35.000000Z"
+            },
+            "teacher": {
+                "id": 9,
+                "name": "Yanuar Riziq",
+                "email": "yanuar@gmail.com",
+                "email_verified_at": null,
+                "two_factor_confirmed_at": null,
+                "created_at": "2026-07-11T02:10:24.000000Z",
+                "updated_at": "2026-07-11T03:26:05.000000Z",
+                "role": "teacher",
+                "avatar": "avatars\/0Lqlg3RqBWzjXSV4KcZNXGwHPAG1PocCTh81Gmvq.jpg",
+                "avatar_url": "\/storage\/avatars\/0Lqlg3RqBWzjXSV4KcZNXGwHPAG1PocCTh81Gmvq.jpg"
+            },
+            "schedules": [
+                {
+                    "id": 2,
+                    "classroom_subject_teacher_id": 10,
+                    "day": "monday",
+                    "start_time": "09:30:00",
+                    "end_time": "11:15:00",
+                    "created_at": "2026-07-11T09:57:23.000000Z",
+                    "updated_at": "2026-07-11T10:09:28.000000Z"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "classroom_id": 2,
+            "subject_id": 1,
+            "teacher_id": 2,
+            "created_at": "2026-07-11T03:33:58.000000Z",
+            "updated_at": "2026-07-11T03:33:58.000000Z",
+            "classroom": {
+                "id": 2,
+                "name": "7B",
+                "academic_year_id": 1,
+                "created_at": "2026-07-11T03:33:06.000000Z",
+                "updated_at": "2026-07-11T03:33:06.000000Z"
+            },
+            "subject": {
+                "id": 1,
+                "name": "Matematika",
+                "code": "MATH-01",
+                "created_at": "2026-07-10T04:02:23.000000Z",
+                "updated_at": "2026-07-11T03:28:43.000000Z"
+            },
+            "teacher": {
+                "id": 2,
+                "name": "Budi Hartono",
+                "email": "budi@gmail.com",
+                "email_verified_at": null,
+                "two_factor_confirmed_at": null,
+                "created_at": "2026-07-09T15:46:36.000000Z",
+                "updated_at": "2026-07-11T03:13:33.000000Z",
+                "role": "teacher",
+                "avatar": "avatars\/pze8RT69qsvLdqP4pvrRz8VzXfR1ybT9RuDwaeq5.jpg",
+                "avatar_url": "\/storage\/avatars\/pze8RT69qsvLdqP4pvrRz8VzXfR1ybT9RuDwaeq5.jpg"
+            },
+            "schedules": []
+        },
+        {
+            "id": 18,
+            "classroom_id": 3,
+            "subject_id": 4,
+            "teacher_id": 3,
+            "created_at": "2026-07-11T03:38:42.000000Z",
+            "updated_at": "2026-07-11T03:38:42.000000Z",
+            "classroom": {
+                "id": 3,
+                "name": "8A",
+                "academic_year_id": 1,
+                "created_at": "2026-07-11T03:37:31.000000Z",
+                "updated_at": "2026-07-11T03:37:31.000000Z"
+            },
+            "subject": {
+                "id": 4,
+                "name": "Ilmu Pengetahuan Alam",
+                "code": "IPA-01",
+                "created_at": "2026-07-11T03:31:17.000000Z",
+                "updated_at": "2026-07-11T03:31:21.000000Z"
+            },
+            "teacher": {
+                "id": 3,
+                "name": "Siti Aminah",
+                "email": "siti@gmail.com",
+                "email_verified_at": null,
+                "two_factor_confirmed_at": null,
+                "created_at": "2026-07-09T15:46:36.000000Z",
+                "updated_at": "2026-07-11T03:10:43.000000Z",
+                "role": "teacher",
+                "avatar": "avatars\/brRAQ7S4bu4c63z07QZ0OgPcwXvxsRvqvDa116zh.jpg",
+                "avatar_url": "\/storage\/avatars\/brRAQ7S4bu4c63z07QZ0OgPcwXvxsRvqvDa116zh.jpg"
+            },
+            "schedules": []
+        },
+        {
+            "id": 19,
+            "classroom_id": 3,
+            "subject_id": 3,
+            "teacher_id": 8,
+            "created_at": "2026-07-11T03:38:51.000000Z",
+            "updated_at": "2026-07-11T03:38:51.000000Z",
+            "classroom": {
+                "id": 3,
+                "name": "8A",
+                "academic_year_id": 1,
+                "created_at": "2026-07-11T03:37:31.000000Z",
+                "updated_at": "2026-07-11T03:37:31.000000Z"
+            },
+            "subject": {
+                "id": 3,
+                "name": "Bahasa Indonesia",
+                "code": "BINA-01",
+                "created_at": "2026-07-11T03:29:22.000000Z",
+                "updated_at": "2026-07-11T03:29:22.000000Z"
+            },
+            "teacher": {
+                "id": 8,
+                "name": "Fitri Firgianni",
+                "email": "fitri@gmail.com",
+                "email_verified_at": null,
+                "two_factor_confirmed_at": null,
+                "created_at": "2026-07-11T02:08:53.000000Z",
+                "updated_at": "2026-07-11T02:08:53.000000Z",
+                "role": "teacher",
+                "avatar": "avatars\/I8YJhgujzxiLl2t3RIGBRXtZjp6tknqGEKHJt5sb.jpg",
+                "avatar_url": "\/storage\/avatars\/I8YJhgujzxiLl2t3RIGBRXtZjp6tknqGEKHJt5sb.jpg"
+            },
+            "schedules": []
+        },
+        {
+            "id": 20,
+            "classroom_id": 3,
+            "subject_id": 2,
+            "teacher_id": 9,
+            "created_at": "2026-07-11T03:39:00.000000Z",
+            "updated_at": "2026-07-11T03:39:00.000000Z",
+            "classroom": {
+                "id": 3,
+                "name": "8A",
+                "academic_year_id": 1,
+                "created_at": "2026-07-11T03:37:31.000000Z",
+                "updated_at": "2026-07-11T03:37:31.000000Z"
+            },
+            "subject": {
+                "id": 2,
+                "name": "Informatika",
+                "code": "TIK-01",
+                "created_at": "2026-07-11T03:28:35.000000Z",
+                "updated_at": "2026-07-11T03:28:35.000000Z"
+            },
+            "teacher": {
+                "id": 9,
+                "name": "Yanuar Riziq",
+                "email": "yanuar@gmail.com",
+                "email_verified_at": null,
+                "two_factor_confirmed_at": null,
+                "created_at": "2026-07-11T02:10:24.000000Z",
+                "updated_at": "2026-07-11T03:26:05.000000Z",
+                "role": "teacher",
+                "avatar": "avatars\/0Lqlg3RqBWzjXSV4KcZNXGwHPAG1PocCTh81Gmvq.jpg",
+                "avatar_url": "\/storage\/avatars\/0Lqlg3RqBWzjXSV4KcZNXGwHPAG1PocCTh81Gmvq.jpg"
+            },
+            "schedules": [
+                {
+                    "id": 3,
+                    "classroom_subject_teacher_id": 20,
+                    "day": "tuesday",
+                    "start_time": "09:00:00",
+                    "end_time": "11:15:00",
+                    "created_at": "2026-07-11T10:03:59.000000Z",
+                    "updated_at": "2026-07-11T10:10:09.000000Z"
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "classroom_id": 3,
+            "subject_id": 1,
+            "teacher_id": 2,
+            "created_at": "2026-07-11T03:39:11.000000Z",
+            "updated_at": "2026-07-11T03:39:11.000000Z",
+            "classroom": {
+                "id": 3,
+                "name": "8A",
+                "academic_year_id": 1,
+                "created_at": "2026-07-11T03:37:31.000000Z",
+                "updated_at": "2026-07-11T03:37:31.000000Z"
+            },
+            "subject": {
+                "id": 1,
+                "name": "Matematika",
+                "code": "MATH-01",
+                "created_at": "2026-07-10T04:02:23.000000Z",
+                "updated_at": "2026-07-11T03:28:43.000000Z"
+            },
+            "teacher": {
+                "id": 2,
+                "name": "Budi Hartono",
+                "email": "budi@gmail.com",
+                "email_verified_at": null,
+                "two_factor_confirmed_at": null,
+                "created_at": "2026-07-09T15:46:36.000000Z",
+                "updated_at": "2026-07-11T03:13:33.000000Z",
+                "role": "teacher",
+                "avatar": "avatars\/pze8RT69qsvLdqP4pvrRz8VzXfR1ybT9RuDwaeq5.jpg",
+                "avatar_url": "\/storage\/avatars\/pze8RT69qsvLdqP4pvrRz8VzXfR1ybT9RuDwaeq5.jpg"
+            },
+            "schedules": []
+        },
+        {
+            "id": 22,
+            "classroom_id": 4,
+            "subject_id": 4,
+            "teacher_id": 3,
+            "created_at": "2026-07-11T03:40:54.000000Z",
+            "updated_at": "2026-07-11T03:40:54.000000Z",
+            "classroom": {
+                "id": 4,
+                "name": "8B",
+                "academic_year_id": 1,
+                "created_at": "2026-07-11T03:40:21.000000Z",
+                "updated_at": "2026-07-11T03:40:21.000000Z"
+            },
+            "subject": {
+                "id": 4,
+                "name": "Ilmu Pengetahuan Alam",
+                "code": "IPA-01",
+                "created_at": "2026-07-11T03:31:17.000000Z",
+                "updated_at": "2026-07-11T03:31:21.000000Z"
+            },
+            "teacher": {
+                "id": 3,
+                "name": "Siti Aminah",
+                "email": "siti@gmail.com",
+                "email_verified_at": null,
+                "two_factor_confirmed_at": null,
+                "created_at": "2026-07-09T15:46:36.000000Z",
+                "updated_at": "2026-07-11T03:10:43.000000Z",
+                "role": "teacher",
+                "avatar": "avatars\/brRAQ7S4bu4c63z07QZ0OgPcwXvxsRvqvDa116zh.jpg",
+                "avatar_url": "\/storage\/avatars\/brRAQ7S4bu4c63z07QZ0OgPcwXvxsRvqvDa116zh.jpg"
+            },
+            "schedules": []
+        },
+        {
+            "id": 23,
+            "classroom_id": 4,
+            "subject_id": 3,
+            "teacher_id": 8,
+            "created_at": "2026-07-11T03:41:04.000000Z",
+            "updated_at": "2026-07-11T03:41:04.000000Z",
+            "classroom": {
+                "id": 4,
+                "name": "8B",
+                "academic_year_id": 1,
+                "created_at": "2026-07-11T03:40:21.000000Z",
+                "updated_at": "2026-07-11T03:40:21.000000Z"
+            },
+            "subject": {
+                "id": 3,
+                "name": "Bahasa Indonesia",
+                "code": "BINA-01",
+                "created_at": "2026-07-11T03:29:22.000000Z",
+                "updated_at": "2026-07-11T03:29:22.000000Z"
+            },
+            "teacher": {
+                "id": 8,
+                "name": "Fitri Firgianni",
+                "email": "fitri@gmail.com",
+                "email_verified_at": null,
+                "two_factor_confirmed_at": null,
+                "created_at": "2026-07-11T02:08:53.000000Z",
+                "updated_at": "2026-07-11T02:08:53.000000Z",
+                "role": "teacher",
+                "avatar": "avatars\/I8YJhgujzxiLl2t3RIGBRXtZjp6tknqGEKHJt5sb.jpg",
+                "avatar_url": "\/storage\/avatars\/I8YJhgujzxiLl2t3RIGBRXtZjp6tknqGEKHJt5sb.jpg"
+            },
+            "schedules": []
+        },
+        {
+            "id": 24,
+            "classroom_id": 4,
+            "subject_id": 2,
+            "teacher_id": 9,
+            "created_at": "2026-07-11T03:41:13.000000Z",
+            "updated_at": "2026-07-11T03:41:13.000000Z",
+            "classroom": {
+                "id": 4,
+                "name": "8B",
+                "academic_year_id": 1,
+                "created_at": "2026-07-11T03:40:21.000000Z",
+                "updated_at": "2026-07-11T03:40:21.000000Z"
+            },
+            "subject": {
+                "id": 2,
+                "name": "Informatika",
+                "code": "TIK-01",
+                "created_at": "2026-07-11T03:28:35.000000Z",
+                "updated_at": "2026-07-11T03:28:35.000000Z"
+            },
+            "teacher": {
+                "id": 9,
+                "name": "Yanuar Riziq",
+                "email": "yanuar@gmail.com",
+                "email_verified_at": null,
+                "two_factor_confirmed_at": null,
+                "created_at": "2026-07-11T02:10:24.000000Z",
+                "updated_at": "2026-07-11T03:26:05.000000Z",
+                "role": "teacher",
+                "avatar": "avatars\/0Lqlg3RqBWzjXSV4KcZNXGwHPAG1PocCTh81Gmvq.jpg",
+                "avatar_url": "\/storage\/avatars\/0Lqlg3RqBWzjXSV4KcZNXGwHPAG1PocCTh81Gmvq.jpg"
+            },
+            "schedules": [
+                {
+                    "id": 4,
+                    "classroom_subject_teacher_id": 24,
+                    "day": "tuesday",
+                    "start_time": "11:15:00",
+                    "end_time": "13:00:00",
+                    "created_at": "2026-07-11T10:04:58.000000Z",
+                    "updated_at": "2026-07-11T10:10:39.000000Z"
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "classroom_id": 4,
+            "subject_id": 1,
+            "teacher_id": 2,
+            "created_at": "2026-07-11T03:41:21.000000Z",
+            "updated_at": "2026-07-11T03:41:21.000000Z",
+            "classroom": {
+                "id": 4,
+                "name": "8B",
+                "academic_year_id": 1,
+                "created_at": "2026-07-11T03:40:21.000000Z",
+                "updated_at": "2026-07-11T03:40:21.000000Z"
+            },
+            "subject": {
+                "id": 1,
+                "name": "Matematika",
+                "code": "MATH-01",
+                "created_at": "2026-07-10T04:02:23.000000Z",
+                "updated_at": "2026-07-11T03:28:43.000000Z"
+            },
+            "teacher": {
+                "id": 2,
+                "name": "Budi Hartono",
+                "email": "budi@gmail.com",
+                "email_verified_at": null,
+                "two_factor_confirmed_at": null,
+                "created_at": "2026-07-09T15:46:36.000000Z",
+                "updated_at": "2026-07-11T03:13:33.000000Z",
+                "role": "teacher",
+                "avatar": "avatars\/pze8RT69qsvLdqP4pvrRz8VzXfR1ybT9RuDwaeq5.jpg",
+                "avatar_url": "\/storage\/avatars\/pze8RT69qsvLdqP4pvrRz8VzXfR1ybT9RuDwaeq5.jpg"
+            },
+            "schedules": []
+        },
+        {
+            "id": 26,
+            "classroom_id": 5,
+            "subject_id": 4,
+            "teacher_id": 3,
+            "created_at": "2026-07-11T03:42:14.000000Z",
+            "updated_at": "2026-07-11T03:42:14.000000Z",
+            "classroom": {
+                "id": 5,
+                "name": "9A",
+                "academic_year_id": 1,
+                "created_at": "2026-07-11T03:41:51.000000Z",
+                "updated_at": "2026-07-11T03:41:51.000000Z"
+            },
+            "subject": {
+                "id": 4,
+                "name": "Ilmu Pengetahuan Alam",
+                "code": "IPA-01",
+                "created_at": "2026-07-11T03:31:17.000000Z",
+                "updated_at": "2026-07-11T03:31:21.000000Z"
+            },
+            "teacher": {
+                "id": 3,
+                "name": "Siti Aminah",
+                "email": "siti@gmail.com",
+                "email_verified_at": null,
+                "two_factor_confirmed_at": null,
+                "created_at": "2026-07-09T15:46:36.000000Z",
+                "updated_at": "2026-07-11T03:10:43.000000Z",
+                "role": "teacher",
+                "avatar": "avatars\/brRAQ7S4bu4c63z07QZ0OgPcwXvxsRvqvDa116zh.jpg",
+                "avatar_url": "\/storage\/avatars\/brRAQ7S4bu4c63z07QZ0OgPcwXvxsRvqvDa116zh.jpg"
+            },
+            "schedules": []
+        },
+        {
+            "id": 27,
+            "classroom_id": 5,
+            "subject_id": 3,
+            "teacher_id": 8,
+            "created_at": "2026-07-11T03:42:24.000000Z",
+            "updated_at": "2026-07-11T03:42:24.000000Z",
+            "classroom": {
+                "id": 5,
+                "name": "9A",
+                "academic_year_id": 1,
+                "created_at": "2026-07-11T03:41:51.000000Z",
+                "updated_at": "2026-07-11T03:41:51.000000Z"
+            },
+            "subject": {
+                "id": 3,
+                "name": "Bahasa Indonesia",
+                "code": "BINA-01",
+                "created_at": "2026-07-11T03:29:22.000000Z",
+                "updated_at": "2026-07-11T03:29:22.000000Z"
+            },
+            "teacher": {
+                "id": 8,
+                "name": "Fitri Firgianni",
+                "email": "fitri@gmail.com",
+                "email_verified_at": null,
+                "two_factor_confirmed_at": null,
+                "created_at": "2026-07-11T02:08:53.000000Z",
+                "updated_at": "2026-07-11T02:08:53.000000Z",
+                "role": "teacher",
+                "avatar": "avatars\/I8YJhgujzxiLl2t3RIGBRXtZjp6tknqGEKHJt5sb.jpg",
+                "avatar_url": "\/storage\/avatars\/I8YJhgujzxiLl2t3RIGBRXtZjp6tknqGEKHJt5sb.jpg"
+            },
+            "schedules": []
+        },
+        {
+            "id": 28,
+            "classroom_id": 5,
+            "subject_id": 2,
+            "teacher_id": 9,
+            "created_at": "2026-07-11T03:42:32.000000Z",
+            "updated_at": "2026-07-11T03:42:32.000000Z",
+            "classroom": {
+                "id": 5,
+                "name": "9A",
+                "academic_year_id": 1,
+                "created_at": "2026-07-11T03:41:51.000000Z",
+                "updated_at": "2026-07-11T03:41:51.000000Z"
+            },
+            "subject": {
+                "id": 2,
+                "name": "Informatika",
+                "code": "TIK-01",
+                "created_at": "2026-07-11T03:28:35.000000Z",
+                "updated_at": "2026-07-11T03:28:35.000000Z"
+            },
+            "teacher": {
+                "id": 9,
+                "name": "Yanuar Riziq",
+                "email": "yanuar@gmail.com",
+                "email_verified_at": null,
+                "two_factor_confirmed_at": null,
+                "created_at": "2026-07-11T02:10:24.000000Z",
+                "updated_at": "2026-07-11T03:26:05.000000Z",
+                "role": "teacher",
+                "avatar": "avatars\/0Lqlg3RqBWzjXSV4KcZNXGwHPAG1PocCTh81Gmvq.jpg",
+                "avatar_url": "\/storage\/avatars\/0Lqlg3RqBWzjXSV4KcZNXGwHPAG1PocCTh81Gmvq.jpg"
+            },
+            "schedules": [
+                {
+                    "id": 5,
+                    "classroom_subject_teacher_id": 28,
+                    "day": "thursday",
+                    "start_time": "07:15:00",
+                    "end_time": "09:00:00",
+                    "created_at": "2026-07-11T10:08:51.000000Z",
+                    "updated_at": "2026-07-11T10:08:51.000000Z"
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "classroom_id": 5,
+            "subject_id": 1,
+            "teacher_id": 2,
+            "created_at": "2026-07-11T03:42:40.000000Z",
+            "updated_at": "2026-07-11T03:42:40.000000Z",
+            "classroom": {
+                "id": 5,
+                "name": "9A",
+                "academic_year_id": 1,
+                "created_at": "2026-07-11T03:41:51.000000Z",
+                "updated_at": "2026-07-11T03:41:51.000000Z"
+            },
+            "subject": {
+                "id": 1,
+                "name": "Matematika",
+                "code": "MATH-01",
+                "created_at": "2026-07-10T04:02:23.000000Z",
+                "updated_at": "2026-07-11T03:28:43.000000Z"
+            },
+            "teacher": {
+                "id": 2,
+                "name": "Budi Hartono",
+                "email": "budi@gmail.com",
+                "email_verified_at": null,
+                "two_factor_confirmed_at": null,
+                "created_at": "2026-07-09T15:46:36.000000Z",
+                "updated_at": "2026-07-11T03:13:33.000000Z",
+                "role": "teacher",
+                "avatar": "avatars\/pze8RT69qsvLdqP4pvrRz8VzXfR1ybT9RuDwaeq5.jpg",
+                "avatar_url": "\/storage\/avatars\/pze8RT69qsvLdqP4pvrRz8VzXfR1ybT9RuDwaeq5.jpg"
+            },
+            "schedules": []
+        },
+        {
+            "id": 30,
+            "classroom_id": 6,
+            "subject_id": 4,
+            "teacher_id": 3,
+            "created_at": "2026-07-11T03:43:42.000000Z",
+            "updated_at": "2026-07-11T03:43:42.000000Z",
+            "classroom": {
+                "id": 6,
+                "name": "9B",
+                "academic_year_id": 1,
+                "created_at": "2026-07-11T03:43:11.000000Z",
+                "updated_at": "2026-07-11T03:43:11.000000Z"
+            },
+            "subject": {
+                "id": 4,
+                "name": "Ilmu Pengetahuan Alam",
+                "code": "IPA-01",
+                "created_at": "2026-07-11T03:31:17.000000Z",
+                "updated_at": "2026-07-11T03:31:21.000000Z"
+            },
+            "teacher": {
+                "id": 3,
+                "name": "Siti Aminah",
+                "email": "siti@gmail.com",
+                "email_verified_at": null,
+                "two_factor_confirmed_at": null,
+                "created_at": "2026-07-09T15:46:36.000000Z",
+                "updated_at": "2026-07-11T03:10:43.000000Z",
+                "role": "teacher",
+                "avatar": "avatars\/brRAQ7S4bu4c63z07QZ0OgPcwXvxsRvqvDa116zh.jpg",
+                "avatar_url": "\/storage\/avatars\/brRAQ7S4bu4c63z07QZ0OgPcwXvxsRvqvDa116zh.jpg"
+            },
+            "schedules": []
+        },
+        {
+            "id": 31,
+            "classroom_id": 6,
+            "subject_id": 3,
+            "teacher_id": 8,
+            "created_at": "2026-07-11T03:44:04.000000Z",
+            "updated_at": "2026-07-11T03:44:04.000000Z",
+            "classroom": {
+                "id": 6,
+                "name": "9B",
+                "academic_year_id": 1,
+                "created_at": "2026-07-11T03:43:11.000000Z",
+                "updated_at": "2026-07-11T03:43:11.000000Z"
+            },
+            "subject": {
+                "id": 3,
+                "name": "Bahasa Indonesia",
+                "code": "BINA-01",
+                "created_at": "2026-07-11T03:29:22.000000Z",
+                "updated_at": "2026-07-11T03:29:22.000000Z"
+            },
+            "teacher": {
+                "id": 8,
+                "name": "Fitri Firgianni",
+                "email": "fitri@gmail.com",
+                "email_verified_at": null,
+                "two_factor_confirmed_at": null,
+                "created_at": "2026-07-11T02:08:53.000000Z",
+                "updated_at": "2026-07-11T02:08:53.000000Z",
+                "role": "teacher",
+                "avatar": "avatars\/I8YJhgujzxiLl2t3RIGBRXtZjp6tknqGEKHJt5sb.jpg",
+                "avatar_url": "\/storage\/avatars\/I8YJhgujzxiLl2t3RIGBRXtZjp6tknqGEKHJt5sb.jpg"
+            },
+            "schedules": []
+        },
+        {
+            "id": 32,
+            "classroom_id": 6,
+            "subject_id": 2,
+            "teacher_id": 9,
+            "created_at": "2026-07-11T03:44:11.000000Z",
+            "updated_at": "2026-07-11T03:44:11.000000Z",
+            "classroom": {
+                "id": 6,
+                "name": "9B",
+                "academic_year_id": 1,
+                "created_at": "2026-07-11T03:43:11.000000Z",
+                "updated_at": "2026-07-11T03:43:11.000000Z"
+            },
+            "subject": {
+                "id": 2,
+                "name": "Informatika",
+                "code": "TIK-01",
+                "created_at": "2026-07-11T03:28:35.000000Z",
+                "updated_at": "2026-07-11T03:28:35.000000Z"
+            },
+            "teacher": {
+                "id": 9,
+                "name": "Yanuar Riziq",
+                "email": "yanuar@gmail.com",
+                "email_verified_at": null,
+                "two_factor_confirmed_at": null,
+                "created_at": "2026-07-11T02:10:24.000000Z",
+                "updated_at": "2026-07-11T03:26:05.000000Z",
+                "role": "teacher",
+                "avatar": "avatars\/0Lqlg3RqBWzjXSV4KcZNXGwHPAG1PocCTh81Gmvq.jpg",
+                "avatar_url": "\/storage\/avatars\/0Lqlg3RqBWzjXSV4KcZNXGwHPAG1PocCTh81Gmvq.jpg"
+            },
+            "schedules": [
+                {
+                    "id": 6,
+                    "classroom_subject_teacher_id": 32,
+                    "day": "thursday",
+                    "start_time": "11:15:00",
+                    "end_time": "13:00:00",
+                    "created_at": "2026-07-11T10:11:13.000000Z",
+                    "updated_at": "2026-07-11T10:11:13.000000Z"
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "classroom_id": 6,
+            "subject_id": 1,
+            "teacher_id": 2,
+            "created_at": "2026-07-11T03:44:25.000000Z",
+            "updated_at": "2026-07-11T03:44:25.000000Z",
+            "classroom": {
+                "id": 6,
+                "name": "9B",
+                "academic_year_id": 1,
+                "created_at": "2026-07-11T03:43:11.000000Z",
+                "updated_at": "2026-07-11T03:43:11.000000Z"
+            },
+            "subject": {
+                "id": 1,
+                "name": "Matematika",
+                "code": "MATH-01",
+                "created_at": "2026-07-10T04:02:23.000000Z",
+                "updated_at": "2026-07-11T03:28:43.000000Z"
+            },
+            "teacher": {
+                "id": 2,
+                "name": "Budi Hartono",
+                "email": "budi@gmail.com",
+                "email_verified_at": null,
+                "two_factor_confirmed_at": null,
+                "created_at": "2026-07-09T15:46:36.000000Z",
+                "updated_at": "2026-07-11T03:13:33.000000Z",
+                "role": "teacher",
+                "avatar": "avatars\/pze8RT69qsvLdqP4pvrRz8VzXfR1ybT9RuDwaeq5.jpg",
+                "avatar_url": "\/storage\/avatars\/pze8RT69qsvLdqP4pvrRz8VzXfR1ybT9RuDwaeq5.jpg"
+            },
+            "schedules": []
+        },
+        {
+            "id": 34,
+            "classroom_id": 1,
+            "subject_id": 4,
+            "teacher_id": 3,
+            "created_at": "2026-07-11T09:32:34.000000Z",
+            "updated_at": "2026-07-11T09:32:34.000000Z",
+            "classroom": {
+                "id": 1,
+                "name": "7A",
+                "academic_year_id": 1,
+                "created_at": "2026-07-10T05:08:43.000000Z",
+                "updated_at": "2026-07-10T05:08:43.000000Z"
+            },
+            "subject": {
+                "id": 4,
+                "name": "Ilmu Pengetahuan Alam",
+                "code": "IPA-01",
+                "created_at": "2026-07-11T03:31:17.000000Z",
+                "updated_at": "2026-07-11T03:31:21.000000Z"
+            },
+            "teacher": {
+                "id": 3,
+                "name": "Siti Aminah",
+                "email": "siti@gmail.com",
+                "email_verified_at": null,
+                "two_factor_confirmed_at": null,
+                "created_at": "2026-07-09T15:46:36.000000Z",
+                "updated_at": "2026-07-11T03:10:43.000000Z",
+                "role": "teacher",
+                "avatar": "avatars\/brRAQ7S4bu4c63z07QZ0OgPcwXvxsRvqvDa116zh.jpg",
+                "avatar_url": "\/storage\/avatars\/brRAQ7S4bu4c63z07QZ0OgPcwXvxsRvqvDa116zh.jpg"
+            },
+            "schedules": []
+        },
+        {
+            "id": 35,
+            "classroom_id": 1,
+            "subject_id": 3,
+            "teacher_id": 8,
+            "created_at": "2026-07-11T09:32:42.000000Z",
+            "updated_at": "2026-07-11T09:32:42.000000Z",
+            "classroom": {
+                "id": 1,
+                "name": "7A",
+                "academic_year_id": 1,
+                "created_at": "2026-07-10T05:08:43.000000Z",
+                "updated_at": "2026-07-10T05:08:43.000000Z"
+            },
+            "subject": {
+                "id": 3,
+                "name": "Bahasa Indonesia",
+                "code": "BINA-01",
+                "created_at": "2026-07-11T03:29:22.000000Z",
+                "updated_at": "2026-07-11T03:29:22.000000Z"
+            },
+            "teacher": {
+                "id": 8,
+                "name": "Fitri Firgianni",
+                "email": "fitri@gmail.com",
+                "email_verified_at": null,
+                "two_factor_confirmed_at": null,
+                "created_at": "2026-07-11T02:08:53.000000Z",
+                "updated_at": "2026-07-11T02:08:53.000000Z",
+                "role": "teacher",
+                "avatar": "avatars\/I8YJhgujzxiLl2t3RIGBRXtZjp6tknqGEKHJt5sb.jpg",
+                "avatar_url": "\/storage\/avatars\/I8YJhgujzxiLl2t3RIGBRXtZjp6tknqGEKHJt5sb.jpg"
+            },
+            "schedules": []
+        },
+        {
+            "id": 36,
+            "classroom_id": 1,
+            "subject_id": 2,
+            "teacher_id": 9,
+            "created_at": "2026-07-11T09:32:50.000000Z",
+            "updated_at": "2026-07-11T09:32:50.000000Z",
+            "classroom": {
+                "id": 1,
+                "name": "7A",
+                "academic_year_id": 1,
+                "created_at": "2026-07-10T05:08:43.000000Z",
+                "updated_at": "2026-07-10T05:08:43.000000Z"
+            },
+            "subject": {
+                "id": 2,
+                "name": "Informatika",
+                "code": "TIK-01",
+                "created_at": "2026-07-11T03:28:35.000000Z",
+                "updated_at": "2026-07-11T03:28:35.000000Z"
+            },
+            "teacher": {
+                "id": 9,
+                "name": "Yanuar Riziq",
+                "email": "yanuar@gmail.com",
+                "email_verified_at": null,
+                "two_factor_confirmed_at": null,
+                "created_at": "2026-07-11T02:10:24.000000Z",
+                "updated_at": "2026-07-11T03:26:05.000000Z",
+                "role": "teacher",
+                "avatar": "avatars\/0Lqlg3RqBWzjXSV4KcZNXGwHPAG1PocCTh81Gmvq.jpg",
+                "avatar_url": "\/storage\/avatars\/0Lqlg3RqBWzjXSV4KcZNXGwHPAG1PocCTh81Gmvq.jpg"
+            },
+            "schedules": [
+                {
+                    "id": 1,
+                    "classroom_subject_teacher_id": 36,
+                    "day": "monday",
+                    "start_time": "07:15:00",
+                    "end_time": "09:00:00",
+                    "created_at": "2026-07-11T09:40:11.000000Z",
+                    "updated_at": "2026-07-11T09:40:11.000000Z"
+                }
+            ]
+        }
+    ],
+    "schedules": [
+        {
+            "id": 1,
+            "classroom_subject_teacher_id": 36,
+            "day": "monday",
+            "start_time": "07:15:00",
+            "end_time": "09:00:00",
+            "created_at": "2026-07-11T09:40:11.000000Z",
+            "updated_at": "2026-07-11T09:40:11.000000Z"
+        },
+        {
+            "id": 2,
+            "classroom_subject_teacher_id": 10,
+            "day": "monday",
+            "start_time": "09:30:00",
+            "end_time": "11:15:00",
+            "created_at": "2026-07-11T09:57:23.000000Z",
+            "updated_at": "2026-07-11T10:09:28.000000Z"
+        },
+        {
+            "id": 3,
+            "classroom_subject_teacher_id": 20,
+            "day": "tuesday",
+            "start_time": "09:00:00",
+            "end_time": "11:15:00",
+            "created_at": "2026-07-11T10:03:59.000000Z",
+            "updated_at": "2026-07-11T10:10:09.000000Z"
+        },
+        {
+            "id": 4,
+            "classroom_subject_teacher_id": 24,
+            "day": "tuesday",
+            "start_time": "11:15:00",
+            "end_time": "13:00:00",
+            "created_at": "2026-07-11T10:04:58.000000Z",
+            "updated_at": "2026-07-11T10:10:39.000000Z"
+        },
+        {
+            "id": 5,
+            "classroom_subject_teacher_id": 28,
+            "day": "thursday",
+            "start_time": "07:15:00",
+            "end_time": "09:00:00",
+            "created_at": "2026-07-11T10:08:51.000000Z",
+            "updated_at": "2026-07-11T10:08:51.000000Z"
+        },
+        {
+            "id": 6,
+            "classroom_subject_teacher_id": 32,
+            "day": "thursday",
+            "start_time": "11:15:00",
+            "end_time": "13:00:00",
+            "created_at": "2026-07-11T10:11:13.000000Z",
+            "updated_at": "2026-07-11T10:11:13.000000Z"
+        }
+    ]
+}
